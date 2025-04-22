@@ -14,7 +14,7 @@ export const NodesList = () => {
     <div className="p-4">
       <div className="flex items-center gap-2 mb-4">
         <SquareMousePointer className="h-5 w-5 text-slate-700" />
-        <h3 className="text-lg font-medium">Nodes</h3>
+        <h3 className="text-lg font-medium">Workflow Automation</h3>
       </div>
 
       <div className="bg-slate-50 rounded-xl border border-slate-200 shadow-sm overflow-hidden h-[90%]">
