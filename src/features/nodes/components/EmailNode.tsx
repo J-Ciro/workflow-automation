@@ -20,7 +20,7 @@ export const EmailNode = ({ id, data, selected }: NodeProps) => {
         <EditableText
           value={emailData.content || "Email content here..."}
           onUpdate={(value) => (emailData.content = value)}
-          className="bg-rose-100 text-rose-800 px-2 py-1 rounded w-full min-h-[60px] focus:outline-none focus:ring-1 focus:ring-rose-400"
+          className="bg-rose-100 text-rose-800 px-2 py-1 rounded w-full min-h-[60px] focus:outline-none focus:ring-1 max-w-[250px] word-break break-all focus:ring-rose-400"
           multiline
         />
       </div>

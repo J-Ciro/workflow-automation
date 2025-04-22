@@ -51,6 +51,6 @@ export const nodeTypes: NodeTypeInfo[] = [
     textColor: "text-indigo-900",
     borderColor: "border-indigo-200",
     icon: <GitBranch className="h-4 w-4 text-indigo-500" />,
-    defaultData: { condition: 'user.status === "active"' },
+    defaultData: { condition: '>=' },
   },
 ];
