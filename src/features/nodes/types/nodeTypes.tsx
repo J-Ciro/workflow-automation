@@ -16,7 +16,6 @@ export interface NodeTypeInfo {
   };
 }
 
-// Exporta el array de tipos de nodos
 export const nodeTypes: NodeTypeInfo[] = [
   {
     type: "start",

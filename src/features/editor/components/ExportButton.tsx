@@ -1,3 +1,4 @@
+import { SquareChevronRight } from "lucide-react";
 
 interface FlowToolbarProps {
   onExport: () => void
@@ -12,6 +13,7 @@ export const ExportButton = (props: FlowToolbarProps ) => {
         onClick={onExport}
       >
         Export to Console
+        <SquareChevronRight className="h-4 w-4 text-white" />
       </button>
     </div>
   )
