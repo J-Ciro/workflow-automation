@@ -12,13 +12,14 @@ export const ConditionNode = ({ id, data, selected }: NodeProps) => {
       <div className="font-medium mb-2 flex items-center gap-2">
         <span>Condition</span>
       </div>
-      <div className="text-sm mt-1" id={id?.toString()}>
+      <div className="text-sm mt-1" id={id}>
         <EditableText
-          value={conditionData?.condition || '==='}
+          value={conditionData?.condition 
+          }
           onUpdate={(value) => {
             if (conditionData) conditionData.condition = value
           }}
-          className="bg-indigo-100 text-indigo-800 px-2 py-1 rounded w-full min-h-[40px] focus:outline-none focus:ring-1 focus:ring-indigo-400"
+          className="bg-indigo-100 text-indigo-800 px-2 py-1 rounded w-full min-h-[40px] focus:outline-none focus:ring-1 focus:ring-indigo-400 text-center"
           multiline
         />
       </div>
